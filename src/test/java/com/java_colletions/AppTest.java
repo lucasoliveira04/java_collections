@@ -1,4 +1,4 @@
-package com.api_send_email;
+package com.java_colletions;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
