@@ -1,8 +1,6 @@
 package com.java_colletions.List;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
+import java.util.*;
 import java.util.stream.Collectors;
 
 /**
@@ -14,6 +12,12 @@ import java.util.stream.Collectors;
  * </ul>
  *
  * <p>Lista é comumente utilizada para gerenciar valores e ordenações de forma dinâmica de elementos onde o tamanho de entradas não são fixos.</p>
+ *
+ * <hr/>
+ *
+ * <h5>List implementa uma <i>SequencedCollection<E></i> que permite usar a interface Collection e Iterable<E>,
+ * assim fica mais fácil realizar a conversão de uma List para as demais classes que não suportam List</h5>
+ *
  * */
 
 public class UseList {
